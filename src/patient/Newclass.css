@@ -1,0 +1,97 @@
+/* App.css */
+body{
+    background-color: rgb(220, 212, 220);
+}
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+  }
+form{
+    width: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.cartdetails{
+    width: 100%;
+    display: flex;
+
+}
+.cartcontainer{
+    width: 80%;
+    display: flex;
+}
+.newcart1{
+    width: 70%;
+}
+.newcart{
+    width: 40%;
+}
+td input{
+    width: 20px;
+    border: none;
+    outline: none;
+}
+label{
+    color: gray;
+}
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 10PX;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 2px #c4b9b9;
+  }
+  thead{
+    color: orange;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+   tr:nth-child(even) {
+    background-color: rgb(206, 203, 205); 
+  }
+
+  /* tr:nth-child(even) td {
+    text-align: center;
+    padding: 8px;
+  } */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e7e4e4;
+  }
+  input{
+    border: none ;
+    outline: none;
+    height: 20px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.341);
+    border-bottom: 1px solid purple;
+  }

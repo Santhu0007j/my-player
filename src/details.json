@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "santhosh",
+        "dob": "23/05/1983",
+        "age": "23",
+        "gender": "male",
+        "patientId": "patient01"
+      },
+      {
+        "id": 2,
+        "name": "mani",
+        "dob": "26/08/1883",
+        "age": "23",
+        "gender": "male",
+        "patientId": "patient02"
+      },
+      {
+        "name": "raja ",
+        "dob": "23/03/2023",
+        "age": ".5",
+        "gender": "Male",
+        "patientId": "3",
+        "id": 3
+      }
+    ]
+
+  }
